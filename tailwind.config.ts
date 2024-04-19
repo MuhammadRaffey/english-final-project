@@ -10,7 +10,7 @@ const config: Config = {
     colors: {
       black: "#191A19",
       lb: "#4287f5",
-      blue: "#6C97B2",
+      blue: "#4f52ff",
       red: "#eb4034",
       yellow: "#FFF734",
       green: "#68F590",
