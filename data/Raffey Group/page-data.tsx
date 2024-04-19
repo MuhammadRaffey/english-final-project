@@ -43,7 +43,7 @@ export const talha = {
 	•	Techniques such as anonymization, encryption, and differential privacy can be used to protect privacy while still allowing for useful analysis.
 	•	Bias:
 	•	Bias in data can lead to unfair or discriminatory outcomes in AI systems.
-	•	It’s important to carefully examine the data for biases related to factors such as race, gender, or socioeconomic status and take steps to mitigate them through techniques like data balancing, fairness-aware algorithms, or diverse training data.
+	•	It's important to carefully examine the data for biases related to factors such as race, gender, or socioeconomic status and take steps to mitigate them through techniques like data balancing, fairness-aware algorithms, or diverse training data.
 	•	Data Security:
 	•	Ensuring the security of data throughout the collection and preprocessing phases is essential to prevent unauthorized access, manipulation, or theft.
 	•	Employing encryption, access controls, and secure data transfer protocols can help mitigate security risks.

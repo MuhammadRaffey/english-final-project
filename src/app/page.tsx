@@ -1,8 +1,12 @@
 import React from "react";
-
+import Link from "next/link";
 const Home = () => {
   return (
     <div>
+      <div className=" flex flex-row p-5 gap-2 text-blue underline">
+        <Link href={"/raffey"}> Raffey</Link>
+        <Link href={"/annas"}> Annas</Link>
+      </div>
       <h1>Artificial Intelligence</h1>
       <p>
         Artificial Intelligence (AI) refers to the simulation of human
@@ -24,6 +28,16 @@ const Home = () => {
         across numerous industries, including healthcare, finance,
         transportation, education, entertainment, and beyond.
       </p>
+      <footer>
+        <h2>Conclusion</h2>
+        Currently, in my view, AI resembles a small child in the process of
+        learning. One of the primary risks associated with AI decision-making
+        lies in its dependency solely on the data provided through machine
+        learning algorithms. These algorithms can both possess biases and lack
+        them, as they are reliant on the data they are trained on. Consequently,
+        if the data utilized to train an AI system contains biases, the
+        decisions made by the system will inevitably reflect those biases.
+      </footer>
     </div>
   );
 };
