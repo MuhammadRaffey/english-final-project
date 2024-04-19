@@ -2,12 +2,12 @@ import React from "react";
 import Link from "next/link";
 const Home = () => {
   return (
-    <div>
-      <div className=" flex flex-row p-5 gap-2 text-blue underline">
-        <Link href={"/raffey"}> Raffey</Link>
+    <div className="p-5">
+      <nav className=" navig">
         <Link href={"/annas"}> Annas</Link>
-      </div>
-      <h1>Artificial Intelligence</h1>
+        <Link href={"/raffey"}> Raffey</Link>
+      </nav>
+      <h1 className="p-5">Artificial Intelligence</h1>
       <p>
         Artificial Intelligence (AI) refers to the simulation of human
         intelligence in machines that are programmed to mimic human cognitive
@@ -29,7 +29,7 @@ const Home = () => {
         transportation, education, entertainment, and beyond.
       </p>
       <footer>
-        <h2>Conclusion</h2>
+        <h2 className="text-green p-5">Conclusion</h2>
         Currently, in my view, AI resembles a small child in the process of
         learning. One of the primary risks associated with AI decision-making
         lies in its dependency solely on the data provided through machine

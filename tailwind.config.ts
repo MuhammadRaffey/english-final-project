@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     colors: {
       black: "#191A19",
-      lb: "#282829",
+      lb: "#4287f5",
       blue: "#3467Eb",
       yellow: "#FFF734",
       green: "#68F590",

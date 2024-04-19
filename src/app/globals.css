@@ -54,3 +54,10 @@ body {
     text-wrap: balance;
   }
 }
+
+.navig {
+  @apply flex flex-row p-5 gap-2 text-yellow underline;
+}
+.watermark {
+  @apply text-lb p-5;
+}

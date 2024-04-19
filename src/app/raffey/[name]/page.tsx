@@ -37,8 +37,8 @@ export default function Page({ params }: PageDetailType) {
     <div className="flex gap-3 flex-col p-5">
       <h1 className="font-bold">Title: {pageData.title}</h1>
       <p>{pageData.data}</p>
-      <footer>{pageData.presentedBy}</footer>
-      <div className="flex flex-col p-5 gap-2 text-blue underline">
+      <footer className="watermark">{pageData.presentedBy}</footer>
+      <div className="navig">
         <Link href={"/raffey"}>Back to Raffey</Link>
         <Link href={"/"}>Back to Home</Link>
       </div>
