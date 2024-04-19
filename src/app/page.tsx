@@ -2,13 +2,19 @@ import React from "react";
 import Link from "next/link";
 const Home = () => {
   return (
-    <div className="p-5">
-      <nav className=" navig">
-        <Link href={"/annas"}> Annas</Link>
-        <Link href={"/raffey"}> Raffey</Link>
+    <div className="p-5 font-[Urbanist]">
+      <nav className="navig ">
+        <Link href={"/annas"} className="absolute pl-20">
+          {" "}
+          Annas
+        </Link>
+        <Link href={"/raffey"} className="absolute pr-20">
+          {" "}
+          Raffey
+        </Link>
       </nav>
-      <h1 className="p-5">Artificial Intelligence</h1>
-      <p>
+      <h1 className="p-5 text-center  ">Artificial Intelligence</h1>
+      <p className="text-center text-2xl tracking-wide leading-10 p-2">
         Artificial Intelligence (AI) refers to the simulation of human
         intelligence in machines that are programmed to mimic human cognitive
         functions such as learning, problem-solving, perception, reasoning, and

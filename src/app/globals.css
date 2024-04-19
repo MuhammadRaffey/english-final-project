@@ -18,16 +18,6 @@
   p {
     @apply text-base;
   }
-
-  h1,
-  h2,
-  h3,
-  h4 {
-    @apply font-display;
-  }
-  html {
-    font-family: Merriweather;
-  }
 }
 
 :root {
@@ -56,7 +46,7 @@ body {
 }
 
 .navig {
-  @apply flex flex-row p-5 gap-2 text-yellow underline;
+  @apply flex flex-row p-5 gap-2 text-yellow underline w-full h-12 bg-red rounded-lg flex justify-center items-center relative;
 }
 .watermark {
   @apply text-lb p-5;
