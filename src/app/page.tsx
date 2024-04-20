@@ -49,7 +49,7 @@ const Home = () => {
         </h1>
       </div>
       <div>
-        <p className="text-center text-[20px] sm:text-2xls text-[#a8a8a8] delay-150 duration-150 hover:text-[#fff]">
+        <p className="sm:text-center text-[20px] sm:text-2xls text-[#a8a8a8] delay-150 duration-150 hover:text-[#fff]">
           Artificial Intelligence (AI) refers to the simulation of human
           intelligence in machines that are programmed to mimic human cognitive
           functions such as learning, problem-solving, perception, reasoning,
