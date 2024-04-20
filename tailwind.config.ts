@@ -8,9 +8,9 @@ const config: Config = {
   ],
   theme: {
     colors: {
-      black: "#191A19",
+      black: "#000000",
       lb: "#4287f5",
-      blue: "#4f52ff",
+      blue: "#3966ae",
       red: "#eb4034",
       yellow: "#FFF734",
       green: "#68F590",

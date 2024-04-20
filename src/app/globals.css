@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 2em;
+  height: 2em;
+}
+
 @layer base {
   h1 {
     @apply text-blue text-4xl sm:text-6xl;
@@ -45,9 +50,9 @@ body {
   }
 }
 
-/* .navig {
-  @apply flex flex-row p-5 gap-2 text-yellow underline w-full h-12 bg-red rounded-lg flex justify-center items-center relative;
-} */
+.navig {
+  @apply shadow-2xl flex flex-row p-5 w-full h-[4rem] border-[.5px] rounded-lg font-medium  justify-center items-center gap-4 sm:gap-[25rem] text-[20px] sm:text-[40px];
+}
 .watermark {
-  @apply text-lb p-5;
+  @apply text-blue p-5 text-center text-xl;
 }
