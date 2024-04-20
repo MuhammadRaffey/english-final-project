@@ -56,3 +56,12 @@ body {
 .watermark {
   @apply text-blue p-5 text-center text-xl;
 }
+
+p {
+  @apply text-left sm:text-center;
+}
+.shadow-glow {
+  @apply shadow-sm;
+  @apply hover:shadow-md;
+  @apply transition duration-500 ease-in-out;
+}

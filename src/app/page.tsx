@@ -7,14 +7,14 @@ const Home = () => {
       <nav className="navig">
         <Link
           href={"/annas"}
-          className="duration-75 delay-75 text-white hover:text-[#898989]  "
+          className="duration-75 delay-75 text-white hover:text-[#35fb91]  hover:underline shadow-glow"
         >
           {" "}
           Annas
         </Link>
         <Link
           href={"/raffey"}
-          className=" duration-75 delay-75 text-white hover:text-[#898989] "
+          className="duration-75 delay-75 text-white  hover:underline hover:text-[#35fb91]  shadow-glow"
         >
           {" "}
           Raffey

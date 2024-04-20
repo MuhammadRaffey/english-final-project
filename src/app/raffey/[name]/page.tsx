@@ -33,17 +33,27 @@ export default function Page({ params }: PageDetailType) {
 
   return (
     <div className="flex gap-3 flex-col p-5">
-      <div className="navig">
-        <Link href={"/raffey"}>Back to Raffey</Link>
-        <Link href={"/"}>Back to Home</Link>
-      </div>
+      <nav className="navig">
+        <Link
+          className="duration-75 delay-75 text-white  hover:underline hover:text-[#35fb91]  shadow-glow"
+          href={"/raffey"}
+        >
+          Back to Raffey
+        </Link>
+        <Link
+          className="duration-75 delay-75 text-white  hover:underline hover:text-[#35fb91]  shadow-glow"
+          href={"/"}
+        >
+          Back to Home
+        </Link>
+      </nav>
       <h1 className="font-bold text-center">Title: {pageData.title}</h1>
       {/* Mapping over paragraphs to render them */}
       <div className="text-center">
         {paragraphs.map((paragraph, index) => (
           <p
             key={index}
-            className="text-[20px] sm:text-2xls text-[#a8a8a8] delay-150 duration-150 hover:text-[#fff] p-2 sm:p-8"
+            className="text-[20px] sm:text-2xls text-white sm:text-[#a8a8a8] delay-150 duration-150 sm:hover:text-[#fff] p-2 sm:p-2"
           >
             {paragraph}
           </p>
