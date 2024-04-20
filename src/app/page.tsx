@@ -24,8 +24,7 @@ const Home = () => {
           Artificial Intelligence
         </h1>
         <p className="text-[25px] sm:text-[25px] pb-8  ">
-          A Project Lead by Muhammad Raffey and Annas Mustafa and our Amazing
-          Team.
+          A Project Lead by Muhammad Raffey, Annas Mustafa and our Amazing Team.
         </p>
       </div>
       <div className="flex items-center mb-[7rem] mt-14 justify-center">
