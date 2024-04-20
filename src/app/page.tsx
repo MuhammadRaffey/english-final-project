@@ -41,7 +41,7 @@ const Home = () => {
         </svg>{" "}
       </div>
       <div className="flex items-center justify-center mb-10">
-        <h1 className=" tracking-wider text-[#3966ae] hover:text-[#5f9dff] duration-75 cursor-help delay-75  font-semibold text-[50pt] text-center">
+        <h1 className=" tracking-wider text-[#3966ae] hover:text-[#5f9dff] duration-75 cursor-help delay-75  font-semibold text-[35pt] sm:text-[50pt] text-center">
           What is Artificial Intelligence?
         </h1>
       </div>
