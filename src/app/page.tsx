@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+
 const Home = () => {
   return (
     <div className="p-6  font-[Urbanist] overflow-hidden">
@@ -28,19 +29,21 @@ const Home = () => {
         </p>
       </div>
       <div className="flex items-center mb-[7rem] mt-14 justify-center">
-        <svg
-          className="w-10 animate-bounce p-1 rounded-full ring-[3px] ring-[#3966ae] delay-75 duration-75 hover:ring-offset-4 h-10 text-[#fff]"
-          fill="none"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-        </svg>{" "}
+        <a href="#main-content">
+          <svg
+            className="w-10 animate-bounce p-1 rounded-full ring-[3px] ring-[#3966ae] delay-75 duration-75 hover:ring-offset-4 h-10 text-[#fff]"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg>
+        </a>
       </div>
-      <div className="flex items-center justify-center mb-10">
+      <div id="main-content" className="flex items-center justify-center mb-10">
         <h1 className=" tracking-wider text-[#3966ae] hover:text-[#5f9dff] duration-75 cursor-help delay-75  font-semibold text-[35pt] sm:text-[50pt] text-center">
           What is Artificial Intelligence?
         </h1>
@@ -68,23 +71,21 @@ const Home = () => {
           entertainment, and beyond.
         </p>
       </div>
-      <div>
-        <footer>
-          <h2 className="text-center leading-snug tracking-wider text-[50px] sm:text-[100px]   font-bold  cursor-pointer text-[#3966ae] mt-10">
-            Conclusion
-          </h2>
-          <p className="text-center text-[20px] sm:text-2xls text-[#a8a8a8] delay-150 duration-150 hover:text-[#fff]">
-            Currently, in my view, AI resembles a small child in the process of
-            learning. One of the primary risks associated with AI
-            decision-making lies in its dependency solely on the data provided
-            through machine learning algorithms. These algorithms can both
-            possess biases and lack them, as they are reliant on the data they
-            are trained on. Consequently, if the data utilized to train an AI
-            system contains biases, the decisions made by the system will
-            inevitably reflect those biases.
-          </p>
-        </footer>
-      </div>
+      <footer>
+        <h2 className="text-center leading-snug tracking-wider text-[50px] sm:text-[100px]   font-bold  cursor-pointer text-[#3966ae] mt-10">
+          Conclusion
+        </h2>
+        <p className="text-center text-[20px] sm:text-2xls text-[#a8a8a8] delay-150 duration-150 hover:text-[#fff]">
+          Currently, in my view, AI resembles a small child in the process of
+          learning. One of the primary risks associated with AI decision-making
+          lies in its dependency solely on the data provided through machine
+          learning algorithms. These algorithms can both possess biases and lack
+          them, as they are reliant on the data they are trained on.
+          Consequently, if the data utilized to train an AI system contains
+          biases, the decisions made by the system will inevitably reflect those
+          biases.
+        </p>
+      </footer>
     </div>
   );
 };
