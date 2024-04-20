@@ -75,7 +75,7 @@ const Home = () => {
         <h2 className="text-center leading-snug tracking-wider text-[50px] sm:text-[100px]   font-bold  cursor-pointer text-[#3966ae] mt-10">
           Conclusion
         </h2>
-        <p className="text-center text-[20px] sm:text-2xls text-[#a8a8a8] delay-150 duration-150 hover:text-[#fff]">
+        <p className="sm:text-center text-[20px] sm:text-2xls text-[#a8a8a8] delay-150 duration-150 hover:text-[#fff]">
           Currently, in my view, AI resembles a small child in the process of
           learning. One of the primary risks associated with AI decision-making
           lies in its dependency solely on the data provided through machine
