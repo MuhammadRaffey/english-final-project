@@ -65,3 +65,24 @@ p {
   @apply hover:shadow-md;
   @apply transition duration-500 ease-in-out;
 }
+
+.glow {
+  position: relative;
+}
+
+.glow::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #35fb91;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.glow.show::before {
+  opacity: 1;
+}
