@@ -51,7 +51,7 @@ body {
 }
 
 .navig {
-  @apply shadow-2xl flex flex-row p-5 w-full h-[4rem] border-[.5px] rounded-lg font-medium  justify-center items-center gap-4 sm:gap-[25rem] text-[20px] sm:text-[40px];
+  @apply shadow-2xl flex flex-row p-5 w-full h-[4rem] border-[.5px] rounded-lg font-medium  justify-center items-center gap-4 sm:gap-[10rem] text-[20px] sm:text-[20px];
 }
 .watermark {
   @apply text-blue p-5 text-center text-xl;

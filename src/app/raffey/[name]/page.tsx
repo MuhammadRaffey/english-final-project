@@ -28,7 +28,6 @@ export default function Page({ params }: PageDetailType) {
     return <div>Page not found</div>;
   }
 
-  // Splitting the data into paragraphs
   const paragraphs = pageData.data.split("\n");
 
   return (
@@ -38,13 +37,13 @@ export default function Page({ params }: PageDetailType) {
           className="duration-75 delay-75 text-white  hover:underline hover:text-[#35fb91]  shadow-glow"
           href={"/raffey"}
         >
-          Back to Raffey
+          Back
         </Link>
         <Link
           className="duration-75 delay-75 text-white  hover:underline hover:text-[#35fb91]  shadow-glow"
           href={"/"}
         >
-          Back to Home
+          Home
         </Link>
       </nav>
       <h1 className="font-bold text-center">Title: {pageData.title}</h1>

@@ -12,6 +12,12 @@ const page = () => {
       <nav className="navig">
         <Link
           className="duration-75 delay-75 text-white  hover:underline hover:text-[#35fb91]  shadow-glow"
+          href={"/"}
+        >
+          Home
+        </Link>
+        <Link
+          className="duration-75 delay-75 text-white  hover:underline hover:text-[#35fb91]  shadow-glow"
           href={"raffey/talha"}
         >
           {" "}
@@ -45,14 +51,6 @@ const page = () => {
         ))}
       </div>
       <footer className="watermark">{pageData.presentedBy}</footer>
-      <div className="navig">
-        <Link
-          className="duration-75 delay-75 text-white  hover:underline hover:text-[#35fb91]  shadow-glow"
-          href={"/"}
-        >
-          Back to Home
-        </Link>
-      </div>
     </div>
   );
 };
