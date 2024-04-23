@@ -35,7 +35,7 @@ export default function Page({ params }: PageDetailType) {
       <nav className="navig">
         <Link
           href="/raffey"
-          className="duration-75 delay-75 text-white hover:underline hover:text-[#35fb91] shadow-glow flex items-center"
+          className="duration-75 delay-75 text-white hover:underline hover:text-[#3966ae] shadow-glow flex items-center"
         >
           <svg
             height="512px"
@@ -52,7 +52,7 @@ export default function Page({ params }: PageDetailType) {
         </Link>
         <Link
           href="/"
-          className="duration-75 delay-75 text-white hover:underline hover:text-[#35fb91] shadow-glow flex items-center"
+          className="duration-75 delay-75 text-white hover:underline hover:text-[#3966ae] shadow-glow flex items-center"
         >
           <svg
             width="20px"

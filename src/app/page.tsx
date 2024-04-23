@@ -7,7 +7,7 @@ const Home = () => {
       <nav className="navig">
         <Link
           href="/annas"
-          className="duration-75 delay-75 text-white hover:text-[#35fb91]  hover:underline shadow-glow"
+          className="duration-75 delay-75 text-white hover:text-[#3966ae]  hover:underline shadow-glow"
         >
           <svg
             width="20px"
@@ -24,7 +24,7 @@ const Home = () => {
         </Link>
         <Link
           href="/raffey"
-          className="duration-75 delay-75 text-white hover:text-[#35fb91]  hover:underline shadow-glow"
+          className="duration-75 delay-75 text-white hover:text-[#3966ae]  hover:underline shadow-glow"
         >
           <svg
             fill="#ffffff"

@@ -12,7 +12,7 @@ const page = () => {
       <nav className="navig flex flex-col">
         <Link
           href="/"
-          className="duration-75 delay-75 text-white hover:underline hover:text-[#35fb91] shadow-glow sm:flex items-center"
+          className="duration-75 delay-75 text-white hover:underline hover:text-[#3966ae] shadow-glow sm:flex items-center"
         >
           <svg
             width="20px"
@@ -47,7 +47,7 @@ const page = () => {
           Home
         </Link>
         <Link
-          className="duration-75 delay-75 text-white  hover:underline hover:text-[#35fb91]  shadow-glow"
+          className="duration-75 delay-75 text-white  hover:underline hover:text-[#3966ae]  shadow-glow"
           href={"annas/huzaifa"}
         >
           <svg
@@ -64,7 +64,7 @@ const page = () => {
           Huzaifa
         </Link>
         <Link
-          className="duration-75 delay-75 text-white  hover:underline hover:text-[#35fb91]  shadow-glow"
+          className="duration-75 delay-75 text-white  hover:underline hover:text-[#3966ae]  shadow-glow"
           href={"annas/akash"}
         >
           <svg
@@ -81,7 +81,7 @@ const page = () => {
           Akash
         </Link>
         <Link
-          className="duration-75 delay-75 text-white  hover:underline hover:text-[#35fb91]  shadow-glow"
+          className="duration-75 delay-75 text-white  hover:underline hover:text-[#3966ae]  shadow-glow"
           href={"annas/rehan"}
         >
           <svg
