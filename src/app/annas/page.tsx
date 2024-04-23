@@ -9,10 +9,10 @@ const page = () => {
 
   return (
     <div className="flex gap-3 flex-col p-5">
-      <nav className="navig">
+      <nav className="navig flex flex-col">
         <Link
           href="/"
-          className="duration-75 delay-75 text-white hover:underline hover:text-[#35fb91] shadow-glow flex items-center"
+          className="duration-75 delay-75 text-white hover:underline hover:text-[#35fb91] shadow-glow sm:flex items-center"
         >
           <svg
             width="20px"

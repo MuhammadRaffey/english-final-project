@@ -9,10 +9,10 @@ const page = () => {
 
   return (
     <div className="flex gap-3 flex-col p-5">
-      <nav className="navig">
+      <nav className="navig flex flex-col">
         <Link
           href="/"
-          className="duration-75 delay-75 text-white hover:underline hover:text-[#35fb91] shadow-glow flex items-center"
+          className="duration-75 delay-75 text-white hover:underline hover:text-[#35fb91] shadow-glow sm:flex items-center"
         >
           <svg
             width="20px"
@@ -21,7 +21,7 @@ const page = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             stroke="#000000"
-            className="mr-2" // Adjust the margin as needed
+            className="mr-2"
           >
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
             <g
