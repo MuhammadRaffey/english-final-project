@@ -39,7 +39,7 @@ const Home = () => {
         </Link>
       </nav>
       <div className="w-full  h-[25rem] flex  flex-col text-center items-center justify-center  ">
-        <h1 className="text-center leading-snug tracking-wider px-20 text-[60px] sm:text-[100px] h-[20rem] mb-14 font-bold   mt-[6rem] delay-50 duration-100 cursor-help text-[#3966ae] hover:text-[#5f9dff] ">
+        <h1 className=" text-left sm:text-center leading-snug tracking-wider px-20 text-[60px] sm:text-[100px] h-[20rem] mb-14 font-bold   mt-[6rem] delay-50 duration-100 cursor-help text-[#3966ae] hover:text-[#5f9dff] ">
           Artificial Intelligence
         </h1>
         <p className="text-[25px] sm:text-[25px] pb-8  ">
@@ -47,7 +47,7 @@ const Home = () => {
         </p>
       </div>
       <div className="flex items-center mb-[7rem] mt-14 justify-center">
-        <a href="#skip-to-main-content">
+        <Link href="#skip-to-main-content">
           <svg
             className="w-10 animate-bounce p-1 rounded-full ring-[3px] ring-[#3966ae] delay-75 duration-75 hover:ring-offset-4 h-10 text-[#fff]"
             fill="none"
@@ -59,18 +59,18 @@ const Home = () => {
           >
             <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
           </svg>
-        </a>
+        </Link>
       </div>
       <div
         id="skip-to-main-content"
         className="flex items-center justify-center mb-10"
       >
-        <h1 className=" tracking-wider text-[#3966ae] hover:text-[#5f9dff] duration-75 cursor-help delay-75  font-semibold text-[35pt] sm:text-[50pt] text-center">
+        <h1 className=" text-left sm:text-center tracking-wider text-blue sm:text-[#3966ae] sm:hover:text-[#5f9dff] duration-75 cursor-help delay-75  font-semibold text-[35pt] sm:text-[50pt] ">
           What is Artificial Intelligence?
         </h1>
       </div>
       <div>
-        <p className="sm:text-center text-[20px] sm:text-2xls text-[#a8a8a8] delay-150 duration-150 hover:text-[#fff]">
+        <p className="sm:text-center text-[20px] sm:text-2xls text-white sm:text-[#a8a8a8] delay-150 duration-150 sm:hover:text-[#fff]">
           Artificial Intelligence (AI) refers to the simulation of human
           intelligence in machines that are programmed to mimic human cognitive
           functions such as learning, problem-solving, perception, reasoning,
@@ -93,10 +93,10 @@ const Home = () => {
         </p>
       </div>
       <footer>
-        <h2 className="text-center leading-snug tracking-wider text-[50px] sm:text-[100px]   font-bold  cursor-pointer text-[#3966ae] mt-5">
+        <h2 className="text-left sm:text-center  leading-snug tracking-wider text-[50px] sm:text-[100px]   font-bold  cursor-pointer text-[#3966ae] mt-5">
           Conclusion
         </h2>
-        <p className="sm:text-center text-[20px] sm:text-2xls text-[#a8a8a8] delay-150 duration-150 hover:text-[#fff]">
+        <p className="sm:text-center text-[20px] sm:text-2xls text-white sm:text-[#a8a8a8] delay-150 duration-150 sm:hover:text-[#fff]">
           Currently, in my view, AI resembles a small child in the process of
           learning. One of the primary risks associated with AI decision-making
           lies in its dependency solely on the data provided through machine

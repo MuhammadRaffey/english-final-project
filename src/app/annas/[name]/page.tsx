@@ -87,13 +87,15 @@ export default function Page({ params }: PageDetailType) {
           Home
         </Link>
       </nav>
-      <h1 className="font-bold text-center">Title: {pageData.title}</h1>
+      <h1 className="font-bold text-left sm:text-center">
+        Title: {pageData.title}
+      </h1>
       {}
       <div className="text-center">
         {paragraphs.map((paragraph, index) => (
           <p
             key={index}
-            className="text-[20px] sm:text-2xls text-white sm:text-[#a8a8a8] delay-150 duration-150 sm:hover:text-[#fff] p-2 sm:p-2"
+            className="sm:text-center text-[20px] sm:text-2xls text-white sm:text-[#a8a8a8] delay-150 duration-150 sm:hover:text-[#fff] p-2"
           >
             {paragraph}
           </p>
