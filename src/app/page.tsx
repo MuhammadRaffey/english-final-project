@@ -1,11 +1,17 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { mainPage } from "../../data/main";
 import Image from "next/image";
-
 const Home = () => {
   const { main, foot } = mainPage;
+  const [words, setWords] = useState([]);
+
+  useEffect(() => {
+    const text: string = "Artificial Intelligence";
+    const wordsArray: any = text.split(" ");
+    setWords(wordsArray);
+  }, []);
 
   return (
     <div className="p-6  font-[Urbanist] overflow-hidden">
@@ -44,8 +50,16 @@ const Home = () => {
         </Link>
       </nav>
       <div className="w-full  h-[25rem] flex  flex-col text-center items-center justify-center  ">
-        <h1 className=" text-left sm:text-center leading-snug tracking-wider sm:px-20 text-[55px] sm:text-[100px] h-[20rem] mb-14 font-bold   mt-[6rem] delay-50 duration-100 cursor-help text-[#3966ae] hover:text-[#5f9dff]">
-          Artificial Intelligence
+        <h1 className="text-left sm:text-center leading-snug tracking-wider sm:px-20 text-[55px] sm:text-[100px] h-[20rem] mb-14 font-bold mt-[6rem] delay-50 duration-100 cursor-help text-[#3966ae] hover:text-[#5f9dff] glow-text">
+          {words.map((word, index) => (
+            <span
+              key={index}
+              className="word-animation"
+              style={{ animationDelay: `${index * 0.5}s` }}
+            >
+              {word}{" "}
+            </span>
+          ))}
         </h1>
         <p className="text-[25px] sm:text-[25px] pb-8  ">
           A Project Lead by Muhammad Raffey, Annas Mustafa and our Amazing Team.
@@ -66,19 +80,20 @@ const Home = () => {
           </svg>
         </Link>
       </div>
-      <div className="flex flex-col sm:flex-row  px-10">
+      <div className="flex flex-col md:flex-row flex-wrap items-center justify-around sm:p-10 w-100">
         <Image
           src={"/p1.jpg"}
-          width={500}
-          height={500}
+          width={1000}
+          height={1000}
           alt="Artificial Intellegence "
-          className=""
+          className="p-5"
         ></Image>
         <Image
           src={"/p2.jpg"}
-          width={500}
-          height={500}
+          width={1000}
+          height={1000}
           alt="Artificial Intellegence "
+          className="p-5"
         ></Image>
       </div>
       <div
