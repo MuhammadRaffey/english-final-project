@@ -50,7 +50,7 @@ const Home = () => {
         </Link>
       </nav>
       <div className="w-full  h-[25rem] flex  flex-col text-center items-center justify-center  ">
-        <h1 className="text-left sm:text-center leading-snug tracking-wider sm:px-20 text-[55px] sm:text-[100px] h-[20rem] mb-14 font-bold mt-[6rem] delay-50 duration-100 cursor-help text-[#3966ae] hover:text-[#5f9dff] glow-text">
+        <h1 className="text-left sm:text-center leading-snug tracking-wider sm:px-20 text-[55px] sm:text-[100px] h-[20rem] mb-14 font-bold mt-[6rem] delay-50 duration-100 cursor-help text-[#3966ae] hover:text-[#5f9dff]">
           {words.map((word, index) => (
             <span
               key={index}
