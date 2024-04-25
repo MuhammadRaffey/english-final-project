@@ -66,17 +66,18 @@ const Home = () => {
           </svg>
         </Link>
       </div>
-      <div className="">
+      <div className="flex flex-col sm:flex-row  px-10">
         <Image
           src={"/p1.jpg"}
-          width={100}
-          height={100}
+          width={500}
+          height={500}
           alt="Artificial Intellegence "
+          className=""
         ></Image>
         <Image
           src={"/p2.jpg"}
-          width={100}
-          height={100}
+          width={500}
+          height={500}
           alt="Artificial Intellegence "
         ></Image>
       </div>
