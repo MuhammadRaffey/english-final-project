@@ -6,9 +6,6 @@ import Image from "next/image";
 
 const Home = () => {
   const { main, foot } = mainPage;
-  const handleImageClick = (event: any) => {
-    event.target.classList.toggle("zoom");
-  };
 
   return (
     <div className="p-6  font-[Urbanist] overflow-hidden">
@@ -47,7 +44,7 @@ const Home = () => {
         </Link>
       </nav>
       <div className="w-full  h-[25rem] flex  flex-col text-center items-center justify-center  ">
-        <h1 className=" text-left sm:text-center leading-snug tracking-wider px-20 text-[60px] sm:text-[100px] h-[20rem] mb-14 font-bold   mt-[6rem] delay-50 duration-100 cursor-help text-[#3966ae] hover:text-[#5f9dff] ">
+        <h1 className=" text-left sm:text-center leading-snug tracking-wider sm:px-20 text-[55px] sm:text-[100px] h-[20rem] mb-14 font-bold   mt-[6rem] delay-50 duration-100 cursor-help text-[#3966ae] hover:text-[#5f9dff]">
           Artificial Intelligence
         </h1>
         <p className="text-[25px] sm:text-[25px] pb-8  ">
@@ -68,6 +65,20 @@ const Home = () => {
             <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
           </svg>
         </Link>
+      </div>
+      <div className="">
+        <Image
+          src={"/p1.jpg"}
+          width={100}
+          height={100}
+          alt="Artificial Intellegence "
+        ></Image>
+        <Image
+          src={"/p2.jpg"}
+          width={100}
+          height={100}
+          alt="Artificial Intellegence "
+        ></Image>
       </div>
       <div
         id="skip-to-main-content"
