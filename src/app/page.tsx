@@ -79,7 +79,7 @@ const Home = () => {
       </div>
       <div>
         <p className="sm:text-center text-[20px] sm:text-2xls text-white sm:text-[#a8a8a8] delay-150 duration-150 sm:hover:text-[#fff]">
-          ${main}
+          {main}
         </p>
       </div>
       <footer>
@@ -87,7 +87,7 @@ const Home = () => {
           Conclusion
         </h2>
         <p className="sm:text-center text-[20px] sm:text-2xls text-white sm:text-[#a8a8a8] delay-150 duration-150 sm:hover:text-[#fff]">
-          ${foot}
+          {foot}
         </p>
       </footer>
     </div>
